@@ -8,11 +8,11 @@ require'nvim-treesitter.configs'.setup {
 }
 EOF
 
-syntax enable
-colorscheme nvcode
+" syntax enable
+" colorscheme nvcode
 
-hi Comment cterm=italic
-let g:nvcode_hide_endofbuffer=1
-let g:nvcode_terminal_italics=1
-let g:nvcode_termcolors=256
+" hi Comment cterm=italic
+" let g:nvcode_hide_endofbuffer=1
+" let g:nvcode_terminal_italics=1
+" let g:nvcode_termcolors=256
 

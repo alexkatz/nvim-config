@@ -18,7 +18,7 @@ else
   source $HOME/.config/nvim/plug-config/coc-global-extensions.vim
   source $HOME/.config/nvim/plug-config/fzf.vim
   source $HOME/.config/nvim/plug-config/airline.vim
-  source $HOME/.config/nvim/plug-config/nvcode.vim
+  source $HOME/.config/nvim/plug-config/indent-line.vim
   source $HOME/.config/nvim/general/settings.vim
   source $HOME/.config/nvim/keys/mappings.vim
 endif

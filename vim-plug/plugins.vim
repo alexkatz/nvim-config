@@ -21,10 +21,12 @@ else " plugins exlusively used outside of vscode
   Plug 'neoclide/coc.nvim', {'branch': 'release'} " coc for web dev 
   Plug 'kevinoid/vim-jsonc' " jsonc support
   Plug 'christianchiarulli/nvcode.vim' " color theme similar to vscode
+  Plug 'gruvbox-community/gruvbox' " gruvbox, baby
   Plug 'nvim-treesitter/nvim-treesitter' " syntax highlighting
-  Plug 'tomasiser/vim-code-dark' " color theme similar to vscode
   Plug 'vim-airline/vim-airline' " tabs, buffers, status bar
   Plug 'jiangmiao/auto-pairs' " completes pairs of opening/closing characters
+  Plug 'Yggdroot/indentLine' " visualizes indentation 
+  Plug 'tpope/vim-commentary' " commenting operators
 endif
 
 
