@@ -27,6 +27,7 @@ else " plugins exlusively used outside of vscode
   Plug 'jiangmiao/auto-pairs' " completes pairs of opening/closing characters
   Plug 'Yggdroot/indentLine' " visualizes indentation 
   Plug 'tpope/vim-commentary' " commenting operators
+  Plug 'styled-components/vim-styled-components', { 'branch': 'main' } " styled-components syntax
 endif
 
 

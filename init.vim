@@ -11,6 +11,7 @@ if exists('g:vscode')
   source $HOME/.config/nvim/keys/vscode/comments.vim
   source $HOME/.config/nvim/keys/vscode/exit-search.vim
   source $HOME/.config/nvim/keys/vscode/navigation.vim
+  source $HOME/.config/nvim/keys/vscode/references.vim
   source $HOME/.config/nvim/general/vscode-settings.vim
 else 
   " nvim config
