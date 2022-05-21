@@ -3,7 +3,7 @@ source $HOME/.config/nvim/vim-plug/plugins.vim
 
 " common config
 source $HOME/.config/nvim/plug-config/quickscope.vim
-source $HOME/.config/nvim/plug-config/easymotion.vim
+source $HOME/.config/nvim/plug-config/hop.vim
 source $HOME/.config/nvim/keys/leader.vim 
 
 if exists('g:vscode')
@@ -23,4 +23,3 @@ else
   source $HOME/.config/nvim/general/settings.vim
   source $HOME/.config/nvim/keys/mappings.vim
 endif
-
