@@ -8,6 +8,7 @@ endif
 
 call plug#begin('~/.config/nvim/autoload/plugged')
 
+" always-on plugins
 Plug 'tpope/vim-surround' " support for surrounding/wrapping characters
 Plug 'unblevable/quick-scope' " character highlighting for horizontal nav
 Plug 'machakann/vim-highlightedyank'
