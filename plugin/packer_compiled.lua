@@ -114,6 +114,11 @@ _G.packer_plugins = {
     path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/harpoon",
     url = "https://github.com//theprimeagen/harpoon"
   },
+  ["hop.nvim"] = {
+    loaded = true,
+    path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/hop.nvim",
+    url = "https://github.com/phaazon/hop.nvim"
+  },
   ["lsp-zero.nvim"] = {
     loaded = true,
     path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/lsp-zero.nvim",
@@ -154,6 +159,12 @@ _G.packer_plugins = {
     path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/plenary.nvim",
     url = "https://github.com/nvim-lua/plenary.nvim"
   },
+  ["quick-scope"] = {
+    loaded = true,
+    needs_bufread = false,
+    path = "/Users/akatz/.local/share/nvim/site/pack/packer/opt/quick-scope",
+    url = "https://github.com/unblevable/quick-scope"
+  },
   ["telescope.nvim"] = {
     loaded = true,
     path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/telescope.nvim",
@@ -169,6 +180,16 @@ _G.packer_plugins = {
     path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-highlightedyank"] = {
+    loaded = true,
+    path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/vim-highlightedyank",
+    url = "https://github.com/machakann/vim-highlightedyank"
+  },
+  ["vim-surround"] = {
+    loaded = true,
+    path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/vim-surround",
+    url = "https://github.com/tpope/vim-surround"
+  },
   ["vscode.nvim"] = {
     loaded = true,
     path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/vscode.nvim",
@@ -177,6 +198,13 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
+-- Setup for: quick-scope
+time([[Setup for quick-scope]], true)
+vim.g.qs_highlight_on_keys = {'f', 'F', 't', 'T'}
+time([[Setup for quick-scope]], false)
+time([[packadd for quick-scope]], true)
+vim.cmd [[packadd quick-scope]]
+time([[packadd for quick-scope]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then

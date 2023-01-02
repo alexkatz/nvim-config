@@ -41,4 +41,13 @@ return require('packer').startup(function(use)
 			{'rafamadriz/friendly-snippets'},
 		}
 	}
+
+  use {
+    'unblevable/quick-scope',
+    setup = [[vim.g.qs_highlight_on_keys = {'f', 'F', 't', 'T'}]]
+  }
+
+  use('machakann/vim-highlightedyank')
+  use('phaazon/hop.nvim')
+  use('tpope/vim-surround')
 end)
