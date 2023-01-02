@@ -1,2 +1,3 @@
+require('alexkatz.set')
+require("alexkatz.packer")
 require("alexkatz.remap")
-print("hello from alexkatz")
