@@ -86,8 +86,7 @@ _G.packer_plugins = {
   },
   ["quick-scope"] = {
     loaded = true,
-    needs_bufread = false,
-    path = "/Users/akatz/.local/share/nvim/site/pack/packer/opt/quick-scope",
+    path = "/Users/akatz/.local/share/nvim/site/pack/packer/start/quick-scope",
     url = "https://github.com/unblevable/quick-scope"
   },
   ["vim-highlightedyank"] = {
@@ -103,13 +102,6 @@ _G.packer_plugins = {
 }
 
 time([[Defining packer_plugins]], false)
--- Setup for: quick-scope
-time([[Setup for quick-scope]], true)
-vim.g.qs_highlight_on_keys = {'f', 'F', 't', 'T'}
-time([[Setup for quick-scope]], false)
-time([[packadd for quick-scope]], true)
-vim.cmd [[packadd quick-scope]]
-time([[packadd for quick-scope]], false)
 
 _G._packer.inside_compile = false
 if _G._packer.needs_bufread == true then
